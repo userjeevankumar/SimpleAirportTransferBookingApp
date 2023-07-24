@@ -1,0 +1,111 @@
+/* index.css (or your custom CSS file) */
+
+.bookings-form {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.booking-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.arrow-icon {
+  font-size: 50px;
+  margin: 20px;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.one-way,
+.return {
+  flex-basis: 45%;
+}
+
+.one-way p,
+.return p {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="datetime-local"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+input[type="number"] {
+  width: 50px;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.passenger-input {
+  margin-right: 5px;
+  margin-right: 10px;
+}
+
+button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  height: 40px;
+  margin-top: 50px;
+}
+
+.passenger-count {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  width: 50px;
+}
+
+.search-count-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.passenger-count label {
+  margin-right: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* Add Return button */
+.add-btn-container {
+  display: flex;
+  justify-content: right;
+}
+
+.add-return-btn {
+  background-color: #28a745;
+  color: #fff;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  text-align: right;
+  align-items: right;
+}
+
+/* Responsive styles for small screens */
+@media screen and (max-width: 768px) {
+  .booking-container {
+    flex-direction: column;
+  }
+
+  .one-way,
+  .return {
+    margin-bottom: 20px;
+  }
+}

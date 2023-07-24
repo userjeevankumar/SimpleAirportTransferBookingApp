@@ -1,0 +1,42 @@
+/* BookingDetails.css */
+.booking-details {
+  margin-bottom: 20px;
+}
+
+.booking-details h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.para-img-container {
+  display: flex;
+  flex-direction: row;
+  height: 140px;
+  width: 100%;
+}
+
+.img-tavel {
+  width: 50%;
+  display: cover;
+}
+
+.img-content {
+  background-image: url("https://res.cloudinary.com/dgjd6lxkk/image/upload/v1690198385/NxtWave/Interview/Lemigo/touri_izxkik.png");
+  padding-bottom: 50px;
+  width: 50%;
+  background-size: cover;
+}
+
+.para-content {
+  width: 50%;
+  background-color: black;
+  color: #ffffff;
+  text-align: center;
+  align-items: center;
+  padding-top: 40px;
+}
+
+.head-book-detail {
+  font-size: 50px;
+}

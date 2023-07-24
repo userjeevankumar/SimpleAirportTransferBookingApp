@@ -1,0 +1,84 @@
+/* src/components/AppDownload.css */
+.app-download {
+  padding: 20px;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.img-travel-planer {
+  border-radius: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.link-text {
+  text-decoration: none;
+}
+
+.link-given {
+  display: flex;
+  flex-direction: row;
+}
+
+.linked-content {
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+}
+
+.app-links {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.app-links img {
+  width: 150px;
+}
+
+.help-links,
+.work-with-us {
+  text-align: center;
+}
+
+.help-links h3,
+.work-with-us h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.help-links ul,
+.work-with-us ul {
+  list-style: none;
+  padding: 0;
+}
+
+.help-links li,
+.work-with-us li {
+  margin-bottom: 5px;
+  cursor: pointer;
+  color: #007bff;
+}
+
+.help-links li:hover,
+.work-with-us li:hover {
+  text-decoration: underline;
+}
+
+.download-mini-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0px 100px 0px 100px;
+}
+
+.app-icon {
+  height: 50px;
+  padding-right: 20px;
+  font-size: 30px;
+}

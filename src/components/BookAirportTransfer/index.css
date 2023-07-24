@@ -1,0 +1,25 @@
+/* BookAirportTransfer.css */
+
+.book-airport-transfer {
+  padding: 20px 100px 20px 100px;
+  background-color: lightgray;
+}
+
+.book-airport-transfer h2 {
+  margin: 0;
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.book-airport-transfer h3 {
+  font-size: 20px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.book-airport-transfer p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}

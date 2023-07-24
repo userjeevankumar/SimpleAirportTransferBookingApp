@@ -1,0 +1,19 @@
+/* DidYouKnow.css */
+
+.did-you-know {
+  padding: 50px 100px 50px 100px;
+  background-color: azure;
+}
+
+.did-you-know h2 {
+  margin: 0;
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.did-you-know p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,67 @@
+/* Footer.css */
+footer {
+  background-color: #333333;
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.contact-info {
+  margin-bottom: 5px;
+}
+
+.footer a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.bank-names-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.sbi {
+  font-size: 30px;
+  font-weight: bold;
+  background-image: linear-gradient(45deg, #00b5ef, #292075);
+  -webkit-background-clip: text; /* For Safari */
+  background-clip: text;
+  color: transparent;
+}
+.hdfc {
+  font-size: 30px;
+  font-weight: bold;
+  background-image: linear-gradient(45deg, #ed232a, #004c8f);
+  -webkit-background-clip: text; /* For Safari */
+  background-clip: text;
+  color: transparent;
+}
+.icici {
+  font-size: 30px;
+  font-weight: bold;
+  background-image: linear-gradient(45deg, #b02a30, #f99d27, #005b75);
+  -webkit-background-clip: text; /* For Safari */
+  background-clip: text;
+  color: transparent;
+}
+.axis {
+  font-size: 30px;
+  font-weight: bold;
+  background-image: linear-gradient(45deg, #ae275f, #eb1165);
+  -webkit-background-clip: text; /* For Safari */
+  background-clip: text;
+  color: transparent;
+}
+.union {
+  font-size: 30px;
+  font-weight: bold;
+  background-image: linear-gradient(45deg, #da251c, #00579c);
+  -webkit-background-clip: text; /* For Safari */
+  background-clip: text;
+  color: transparent;
+}

@@ -1,0 +1,46 @@
+/* Header.css */
+.header-container {
+  background-color: transparent;
+  color: #bb77fa;
+  padding: 10px 50px 10px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+.logo-icon {
+  font-size: 40px;
+  color: black;
+}
+.header-logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.header-list-container {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+.header-nav-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.header-nav-list-details {
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+nav li:last-child {
+  margin-right: 0;
+}
+
+.login-btn {
+  background-color: transparent;
+  margin-left: 10px;
+  border-color: transparent;
+  font-size: 25px;
+  font-weight: bold;
+}
